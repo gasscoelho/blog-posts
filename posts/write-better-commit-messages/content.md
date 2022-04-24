@@ -82,7 +82,7 @@ The test type is used to identify **development** changes related to tests. (ex:
 
 Nowadays companies tend to use task management tools (such as [Jira](https://www.atlassian.com/software/jira), [TFS/Azure DevOps](https://www.atlassian.com/software/jira)) to keep track of the work. Usually, the task is described in tickets containing all the clarifications about the requirements. Each ticket will have a unique ID that can be used in our commit messages. Let's say you were assigned to a ticket with an ID of **ABC-123**, when the time to commit your changes comes, use that ID as the scope of your message, for example:
 
-_ABC-123: Create a provider to send email notifications_
+_ABC-123: Create a provider to send email notifications_<br></br>
 _ABC-123: Remove filter for the Client object_
 
 This will help you and your team to keep track of the publishes that are happening in the version control system.
