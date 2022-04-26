@@ -101,3 +101,7 @@ This will help you and your team to keep track of the publishes that are happeni
 Attaching Emojis to the commit message might improve the readability even more.  Check it out [Gitmoji](https://gitmoji.dev/), an emoji guide for your commit messages.
 
 Work with a team and want to implement the standardization of commit messages? You can do that with a combination of [husky](https://github.com/typicode/husky), [commitlint](https://github.com/conventional-changelog/commitlint), and [commitizen](https://github.com/commitizen/cz-cli)!
+
+## Conclusion
+
+Improving your commit messages will not help only you but also other developers who will be working on the project. In general, it will make you a better collaborator.
