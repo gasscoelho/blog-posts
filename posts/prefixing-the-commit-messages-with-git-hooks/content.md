@@ -46,7 +46,7 @@ Before getting the sample code, go to the `.git/hooks` and rename the `prepare-c
 
 *.git/hooks/prepare-commit-msg*
 
-```bash
+```powershell
 #!/bin/bash
 
 # COMMIT_EDITMSG
