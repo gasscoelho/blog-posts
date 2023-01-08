@@ -158,7 +158,7 @@ Last but not least, you can also use emojis in commit messages to improve readab
 
 ## Why Use Conventional Commits
 
-<br></br>
+Conventional commits offer several benefits, including:
 - **Automatically generating CHANGELOGs**: Conventional commit messages follow a standardized structure, which makes it easier for tools to parse and understand the messages. This allows tools like conventional-changelog to automatically generate a CHANGELOG for a project based on the commit messages. This can save time and effort compared to manually writing and maintaining a CHANGELOG.
 - **Automatically determining a semantic version bump**: The semantic versioning system uses a version number of the form MAJOR.MINOR.PATCH, where each part represents a different level of change. By following a convention for commit messages, it's possible for tools to automatically determine the appropriate level of version bump based on the types of changes that were made. For example, a commit with a feat type might trigger a MINOR version bump, while a commit with a fix type might trigger a PATCH version bump.
 - **Communicating the nature of changes**: By following a standardized structure for commit messages, it's easier for developers (and other stakeholders) to quickly understand the purpose and context of a commit. This can be especially helpful when working with a large codebase or when working on a team with many contributors.
