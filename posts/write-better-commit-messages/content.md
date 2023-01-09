@@ -147,10 +147,16 @@ This change adds integration tests for the data pipeline to ensure that data is 
 
 ## Alternatives
 
-Nowadays companies tend to use task management tools (such as [Jira](https://www.atlassian.com/software/jira), [TFS/Azure DevOps](https://www.atlassian.com/software/jira)) to keep track of the work. Usually, the task is described in tickets containing all the clarifications about the requirements. Each ticket will have a unique ID that can be used in our commit messages. Let's say you were assigned to a ticket with an ID of **ABC-123**, when the time to commit your changes comes, use that ID as the scope of your message, for example:
+Nowadays companies tend to use task management tools (such as [Jira](https://www.atlassian.com/software/jira), [TFS/Azure DevOps](https://www.atlassian.com/software/jira)) to keep track of the work. Usually, the task is described in tickets containing all the clarifications about the requirements. Each ticket will have a unique ID that can be used in our commit messages. Let's say you were assigned to a ticket with an ID of **CORGI-109**, when the time to commit your changes comes, use that ID as the scope of your message, for example:
 
-_CORGI-34: add support for internationalization_<br></br>
-_CORGI-109: optimize database query for improved performance_
+```text
+CORGI-109: add support for importing data from CSV files
+CORGI-109: optimize ETL pipeline for large data sets
+CORGI-109: fix bug in data cleansing script
+CORGI-109: refactor data storage layer to use NoSQL database
+CORGI-109: add unit tests for data validation routines
+CORGI-109: optimize database query for improved performance
+```
 
 This will help you and your team to keep track of the publishes that are happening in the version control system.
 
