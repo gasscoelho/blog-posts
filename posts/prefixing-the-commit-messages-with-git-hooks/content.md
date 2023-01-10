@@ -112,7 +112,7 @@ git rev-parse --abbrev-ref HEAD
 Some helpful information:
    1. `grep` is a Linux command used to search for text and strings in a given file.
    2. The `E` parameter is used to interpret a Regex expression and the `o` parameter to print out only what is matched. You can append them and use them like `-Eo`.
-   3. The second `grep` command is using the `-P` parameter, which makes grep use the Perl dialect. This is required because of the **Positive lookbehind** regex expression `(?<=\/|_|-)` being used.
+   3. The second `grep` command is using the `-P` parameter, which makes grep use the Perl dialect. This is required because of the "Positive lookbehind" regex expression being used.
     
    Since the goal of this post is not to dive into regex, I will skip the thorough explanation about them. However, keep in mind that the first group of regex is used to remove unwanted patterns from the branch name and the second group is responsible for retrieving only the ticket number that comes after the `/`, `-`, or `_` characters.
     
