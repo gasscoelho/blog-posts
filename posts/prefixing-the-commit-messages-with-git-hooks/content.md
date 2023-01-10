@@ -161,7 +161,7 @@ fi
 
 You might want to adjust some of the logic like regex expression or the `if` condition, and mainly the appended message to fit your requirements.
 
-### Conclusion
+## Conclusion
 
 In conclusion, using git hooks can greatly improve the efficiency and organization of your version control workflow. The prepare-commit-msg hook is just one example of the powerful automation capabilities that git hooks offer. By leveraging these tools, you can save time and effort on tasks such as prefixing commit messages with ticket numbers or enforcing commit message guidelines for your team.
 
